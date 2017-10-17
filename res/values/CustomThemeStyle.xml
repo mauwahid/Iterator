@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@drawable/itertitlebar</item>
+      
+    </style>
+ 
+    <style name="CustomTheme" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">45dip</item>
+       	
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <ListPreference 
+        android:key="language_from"
+        android:title="Bahasa Sumber"
+        android:summary="Pilih Bahasa"
+        android:defaultValue="ind"
+        android:entries="@array/language_array"
+        android:entryValues="@array/language_array_val"
+      
+        />
+    <ListPreference 
+        android:key="language_to"
+        android:title="Bahasa Target"
+        android:summary="Pilih Bahasa"
+        android:defaultValue="eng"
+        android:entries="@array/language_array"
+        android:entryValues="@array/language_array_val"
+      
+        />
+
+</PreferenceScreen>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/iterator_back"
+    >
+
+    <EditText
+        android:id="@+id/textInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/translateFrom"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/bahasa"
+            android:prompt="@string/bahasa_asal" />
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:text="Ke" />
+
+        <Spinner
+            android:id="@+id/translateTo"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/bahasa"
+            android:prompt="@string/bahasa_tujuan" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTerjemah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Terjemahkan" />
+    
+    <EditText
+        android:id="@+id/textTerjemah"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       	android:editable="false"
+       	android:clickable="false"
+       	android:cursorVisible="false"
+       	android:background="#E6E7E8"
+       	android:paddingLeft="13dp"
+       	android:longClickable="false"
+        android:ems="10" />
+
+</LinearLayout>

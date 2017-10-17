@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Iterator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="title_activity_main">Camera</string>
+    <string name="bahasa_asal">Bahasa Sumber</string>
+    <string name="bahasa_tujuan">Bahasa Tujuan</string>
+    <string name="Terjemahkan">Terjemahkan</string>
+    
+    <string-array name="bahasa">
+        <item>English</item>
+        <item>Indonesia</item>
+        <item>Jawa</item>
+        <item>Sunda</item>
+        <item>Manado</item>
+        <item>Batak</item>
+        <item>Bali</item>
+        <item>Nias</item>
+        <item>Madura</item>
+        <item>Aceh</item>
+        <item>Minang</item>
+        <item>Malang</item>
+        <item>Poso</item>
+    </string-array>
+
+</resources>

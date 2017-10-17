@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<me.umroh.iterator.Preview
+		android:id="@+id/preview" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1">
+	</me.umroh.iterator.Preview>
+	
+	<ImageView android:id="@+id/startcamerapreview" android:src="@drawable/camera"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	
+	<me.umroh.iterator.TouchView
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:id="@+id/left_top_view" />
+</RelativeLayout>
+

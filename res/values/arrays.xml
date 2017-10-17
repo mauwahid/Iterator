@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="language_array">
+         <item name="eng">English</item>
+         <item name="ind">Indonesia</item>
+         <item name="sun">Sunda</item>
+        
+     </string-array>
+     
+     <string-array name="language_array_val">
+         <item name="eng">eng</item>
+         <item name="ind">ind</item>
+         <item name="sun">sun</item>
+        
+     </string-array>
+</resources>
